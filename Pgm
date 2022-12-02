@@ -33,4 +33,4 @@ year=int(input())
 if leap(year):
    print("Yes")
 else:
-   print("No)
+   print("No")
