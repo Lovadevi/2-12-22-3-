@@ -1,6 +1,8 @@
 def leap(year):
     if year%4==0 and year%100!=0:
        print("Yes")
+    elif year%400==0:
+       print("Yes")
     else:
        print("No")
 year=int(input())
@@ -10,6 +12,8 @@ leap(year)
 
 def leap(year):
     if year%4==0 and year%100!=0:
+       return "Yes"
+    elif year%400==0:
        return "Yes"
     else:
        return "No"
